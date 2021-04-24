@@ -1,7 +1,6 @@
- 
 <html>
   <head>
-    <title>Handsigns To Emojis</title>
+    <title>Handgestures to Emojis</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -17,20 +16,20 @@
   <div class="container">
   
     <center>
-
-    <h3 class="btn btn-warning heading">Handsigns To Emojis 
-    <br>
-    <span>&#9996;</span>
+      <h3 class="btn btn-warning heading">Handgestures to Emojis
+      <br>
+      <span>&#9996;</span>
     <span>&#128076;</span>
     <span>&#128077;</span>
     <span>&#128400;</span>
     <span>&#128075;</span>
     <span>&#128400;</span>
-    </h3> 
-    <br><br>
+      </h3>
 
-      <p style="font-size: 22px;">Take your selfie gesture to know about it's meaning
-      	<br>
+      <br><br>
+
+      <p style="font-size: 22px;">Make Handgesture and take a picture to know about it's meaning
+        <br>
         <b style="color: yellow">Amazing</b>
         <br>
         <b style="color: black">Best</b>
@@ -40,29 +39,28 @@
       </p>
 
       <div class="col-md-4 col-sm-12 col-xs-12">
-	      <label>Webcam view- </label>
+        <label>Webcam View - </label>
         <div id="camera"></div>
         <br><br>
-        <button onclick="take_snapshot()"; class="btn btn-warning">Capture Image</button>
-        <br><br>
+        <button onclick="take_snapshot();" class="btn btn-warning">Capture Image</button>
       </div>
 
       <div class="col-md-4 col-sm-12 col-xs-12">
-	      <label>Pridiction 1- </label>
+        <label>Prediction 1 - </label>
         <p class="emotion_name" id="result_emotion_name"></p>
         <p class="emoji" id="update_emoji"></p>
-        <label>Pridiction 2- </label>
+
+        <label>Prediction 2 - </label>
         <p class="emotion_name" id="result_emotion_name2"></p>
         <p class="emoji" id="update_emoji2"></p>
       </div>
 
       <div class="col-md-4 col-sm-12 col-xs-12">
-	      <label>Snapshot- </label>
-        <div id="Result"></div>
+        <label>Snapshot - </label>
+        <div id="result"></div>
         <br><br>
-        <button onclick="check()"; class="btn btn-success">Capture Image</button>
-        <br><br>
-      </div>
+        <button onclick="check();" class="btn btn-success">Predict Emotion</button>
+       </div>
 
     </center>
 
@@ -72,5 +70,3 @@
 
   </body>
 </html>
-
- 
